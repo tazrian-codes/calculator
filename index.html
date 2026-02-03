@@ -11,26 +11,27 @@
   <div class="container">
     <div class="calc">
       <input type="text" id="input" placeholder="0">
-      <button class="silverbtn" onclick="calculate()">AC</button>
-      <button class="silverbtn" onclick="calculate()">Del</button>
+      <button class="silverbtn" onclick="allClear()">AC</button>
+      <button class="silverbtn" onclick="del()">Del</button>
       <button class="bluebtn" onclick="calculate('.')">.</button>
       <button class="bluebtn" onclick="calculate('/')">/</button>
-      <button onclick="calculate('*')">1</button>
-      <button onclick="calculate()">2</button>
-      <button onclick="calculate()">3</button>
-      <button class="bluebtn" onclick="calculate()">*</button>
-      <button onclick="calculate()">4</button>
-      <button onclick="calculate()">5</button>
-      <button onclick="calculate()">6</button>
-      <button class="bluebtn" onclick="calculate()">-</button>
-      <button onclick="calculate()">7</button>
-      <button onclick="calculate()">8</button>
-      <button onclick="calculate()">9</button>
-      <button class="bluebtn" onclick="calculate()">+</button>
-      <button onclick="calculate()">00</button>
-      <button onclick="calculate()">0</button>
-      <button class="equalbtn" onclick="calculate()">=</button>
+      <button onclick="calculate(1)">1</button>
+      <button onclick="calculate(2)">2</button>
+      <button onclick="calculate(3)">3</button>
+      <button class="bluebtn" onclick="calculate('*')">*</button>
+      <button onclick="calculate(4)">4</button>
+      <button onclick="calculate(5)">5</button>
+      <button onclick="calculate(6)">6</button>
+      <button class="bluebtn" onclick="calculate('-')">-</button>
+      <button onclick="calculate(7)">7</button>
+      <button onclick="calculate(8)">8</button>
+      <button onclick="calculate(9)">9</button>
+      <button class="bluebtn" onclick="calculate('+')">+</button>
+      <button onclick="calculate(doubleZero())">00</button>
+      <button onclick="calculate(0)">0</button>
+      <button class="equalbtn" onclick="result()">=</button>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
