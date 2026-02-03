@@ -19,6 +19,11 @@ const del = () => {
 }
 
 const result = () => {
+  try{
   inputBox.value = eval(inputBox.value);
   isResultShown = true;
+  }
+  catch(err){
+    alert('Please give a valid equation.');
+  }
 }
